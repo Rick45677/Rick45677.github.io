@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	/* border:solid 1px ; */
+	position: relative;
+}
+
+html,body{
+  width:100% ;height:100% ;
+  padding:0px; margin:0px;
+}
+
+body{
+  background-color: #f1e9db;
+  border-top: solid 20px #b7b5e4;
+  border-bottom: solid 20px #b7b5e4;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.namecard{
+  width:380px; height:230px;
+  border: solid 1px rgab(0,0,0,0.5);
+  padding:0px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:150px;
+  
+  background-color:#f7f5e9;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
+}
+
+.namecard h2{
+  position:absolute;
+  font-size:19px;
+  font-weight:550;
+  color: rgba (0,0,0,0.1);
+  letter-spacing:4px;
+  padding-left:15px;
+  padding-top:20px;
+  margin-bottom:0px;
+  
+}
+
+.namecard h2 span{
+  font-size:12px;
+  letter-spacing:6px;
+  
+}
+
+.namecard h6{
+  color:white;
+/*   border:solid 1px #3c5738; */
+  padding-left:130px;
+  background:linear-gradient(to right, #bbc2e2, #b7b5e4);
+  top:50px;
+}
+
+.company{
+  font-size:15px;
+  font-weight:500;
+  letter-spacing:5px;
+  padding-left:150px;
+  top:40px;
+}
+
+.namecard p {
+  position:absolute;
+  font-size:12px;
+  padding-left:150px;
+  top:115px;
+}
+
+.mark{
+  color:white;
+  text-align: center;
+  line-height:40px;
+  position:absolute;
+  top:20px;
+  right:20px;
+  border:solid 1px #7b9e87;
+  border-radius:5px;
+  width:80px; height:40px;
+  background:#7b9e87;
+}
+.circle{
+  width: 60px; height: 50px;
+  border-radius: 100%;
+  position: absolute;
+  background-color:#f7f5e9
+}
+.circle1{
+  width: 60px; height: 50px;
+  top:-23px; right:25px;
+}
+.circle2{
+  width: 60px; height: 30px;
+  top:25px; right:-30px; 
+}
+.circle3{
+  width: 50px; height: 10px;
+  top:58px; right:30px;
+}
+.circle4{
+  width: 60px; height: 30px;
+  top:25px; right:85px; 
+}
+.title{
+   font-size:300px;
+  font-weight:200;
+  position: absolute;
+  bottom:100px;
+  color: rgba(0,0,0,0.1)
+}
