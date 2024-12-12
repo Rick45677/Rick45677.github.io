@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('/index_resource/background.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: linear-gradient(to bottom, rgba(43, 40, 37) 10%,rgba(43, 40, 37, 0.5) 70%,rgba(43, 40, 37, 0));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo {
+    font-size: 30px;
+    color: #fff;
+    user-select: none;
+}
+
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 15px;
+}
+
+.navigation a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    left: 0;
+    bottom: -6px;
+    background-color: #ffed2a;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation a:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.navigation .btnlogin-popup {
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 10px;
+    transition: .5s;
+}
+
+.navigation .btnlogin-popup:hover {
+    background: #ffffff;
+    color: #162938;
+}
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.lxgw-wenkai-tc-regular {
+    font-family: "LXGW WenKai TC", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Mycontainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 300px;
+    height: 250px;
+    box-shadow: 0px 0px 30px 0px #888888;
+    position: relative;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.card img{
+    width: 93%;
+    height: 70%;
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    object-fit: cover;
+    margin: 10px;
+}
+
+.card h2{
+    font-weight:500;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.card h2::after{
+    content: "";
+    background: rgb(255, 0, 0);
+    position: absolute;
+    width: 30%;
+    height: 3px;
+    left: 10%;
+    bottom: 173px;
+}
+
+.card:hover{
+    scale: 0.9;
+    box-shadow: none;
+}
+
+.card P{
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+}
+
+.card111{
+    box-shadow: 0px 0px 30px 0px #888888;
+    position: relative;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.card111 img{
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    transition: 0.5s;
+}
+
+.card111:hover img{
+    transform: scale(0.97);
+}
+
+.card222{
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    box-shadow: 0px 0px 30px 0px #888888;
+    position: relative;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    padding-right: 4cap;
+    padding-left: 4cap;
+    padding-top: 19px;
+    padding-bottom: 10px;
+    margin: 20px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.card222 h1{
+    font-weight: bold;
+}
+
+
+.card222 a{
+    text-decoration: none;
+    font-size: 1em;
+    color: #ffffff;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.card222 a:hover{
+    transform: scale(2);
+    color: #ffed2a;
+}
+
+.Mycontainer .footer {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-top: 20px;
+    background: linear-gradient(to top, rgba(43, 40, 37) 10%,rgba(43, 40, 37, 0.5) 70%,rgba(43, 40, 37, 0));
+}
