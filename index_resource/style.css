@@ -230,5 +230,5 @@ main {
     font-size: 1.1em;
     font-weight: 500;
     padding-top: 20px;
-    background: linear-gradient(to top, rgba(43, 40, 37) 10%,rgba(43, 40, 37, 0.5) 70%,rgba(43, 40, 37, 0));
+    background: linear-gradient(to top, rgba(43, 40, 37) 10%,rgba(43, 40, 37, 0.5) 70%,rgba(43, 40, 37, 0.2));
 }
